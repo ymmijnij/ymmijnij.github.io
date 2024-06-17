@@ -70,7 +70,7 @@ document.getElementById("send").addEventListener("click", () => {
         }
             
     } else {
-        error.textContent = "Errore: La parola inserita dev'essere lunga 2-16 caratteri e contenere solo le lettere dell'alfabeto."
+        error.textContent = "Error: the word must be between 2-16 characters long and must only contain the 26 letters of the English alphabet."
     }
 });
 
