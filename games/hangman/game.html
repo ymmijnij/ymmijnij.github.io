@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta property="og:type" content="website">
+		<meta property="og:site_name" content="Jimmy's Silly Little Games">
+		<meta property="og:title" content="Hangman" />
+		<meta property="og:description" content="Classic game of hangman." />
+		<meta property="og:url" content="https://ymmijnij.github.io/games/hangman/game.html" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <title>Hangman</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                HANGMAN
+            </div>
+        </header>
+        <main>
+            <div id="phase1">
+                <input type="text" id="word" placeholder="Enter the word..." />
+                <span id="error"></span>
+                <input type="button" id="send" value="Confirm" />
+                <input type="button" class="retry" value="Reset" />
+            </div>
+            <div id="phase2">
+                <img id="hangman" src="images/0.png" />
+                <div id="display"></div>
+                <input type="button" class="letter" id="Q" value="Q" />
+                <input type="button" class="letter" id="W" value="W" />
+                <input type="button" class="letter" id="E" value="E" />
+                <input type="button" class="letter" id="R" value="R" />
+                <input type="button" class="letter" id="T" value="T" />
+                <input type="button" class="letter" id="Y" value="Y" />
+                <input type="button" class="letter" id="U" value="U" />
+                <input type="button" class="letter" id="I" value="I" />
+                <input type="button" class="letter" id="O" value="O" />
+                <input type="button" class="letter" id="P" value="P" />
+                <input type="button" class="letter" id="A" value="A" />
+                <input type="button" class="letter" id="S" value="S" />
+                <input type="button" class="letter" id="D" value="D" />
+                <input type="button" class="letter" id="F" value="F" />
+                <input type="button" class="letter" id="G" value="G" />
+                <input type="button" class="letter" id="H" value="H" />
+                <input type="button" class="letter" id="J" value="J" />
+                <input type="button" class="letter" id="K" value="K" />
+                <input type="button" class="letter" id="L" value="L" />
+                <input type="button" class="letter" id="Z" value="Z" />
+                <input type="button" class="letter" id="X" value="X" />
+                <input type="button" class="letter" id="C" value="C" />
+                <input type="button" class="letter" id="V" value="V" />
+                <input type="button" class="letter" id="B" value="B" />
+                <input type="button" class="letter" id="N" value="N" />
+                <input type="button" class="letter" id="M" value="M" />
+                <span id="endmsg"></span>
+                <input type="button" class="retry" value="Restart" hidden />
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>

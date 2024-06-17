@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta property="og:type" content="website">
+		<meta property="og:site_name" content="Jimmy's Silly Little Games">
+		<meta property="og:title" content="Treasure Hunt" />
+		<meta property="og:description" content="Avoid deathly traps, solve riddles and find the treasure." />
+		<meta property="og:url" content="https://ymmijnij.github.io/games/treasure_hunt/game.html" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <title>Treasure Hunt</title>
+    </head>
+    <body>
+        <main>
+            <div id="titlescr">
+                <img src="images/title.png" />
+                <input type="button" id="start" />
+            </div>
+            <div id="setupscr">
+                <input type="button" id="subw" class="leftarrow" />
+                <input type="text" id="fwidth" value="6" disabled />
+                <input type="button" id="addw" class="rightarrow" />
+                <span id="flwidth">Board Width</span>
+                <input type="button" id="subh" class="leftarrow" />
+                <input type="text" id="fheight" value="6" disabled />
+                <input type="button" id="addh" class="rightarrow" />
+                <span id="flheight">Board Height</span>
+                <input type="button" id="ctn" />
+            </div>
+            <div id="gameproper">
+                <span id="gametip">Click on a cell to Hunt for Treasure!</span>
+                <table>
+                    <tbody>
+                    </tbody>
+                </table>
+				<div id="riddle">
+					<span id="riddletxt"></span>
+					<input type="button" id="opt1" class="riddleopt" />
+					<input type="button" id="opt2" class="riddleopt" />
+					<input type="button" id="opt3" class="riddleopt" />
+					<input type="button" id="opt4" class="riddleopt" />
+				</div>
+				<span id="result"></span>
+				<input type="button" id="retry" />
+                <input type="button" id="back" />
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>

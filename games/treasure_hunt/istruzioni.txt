@@ -1,0 +1,17 @@
+Jin Mingda 4BI, a.s.2022/23
+
+La pagina realizza il gioco del "Caccia al Tesoro".
+In seguito alla schermata principale, il giocatore è chiesto di impostare la grandezza
+della griglia sulla quale verrà eseguito il gioco, con un minimo di 36 celle (3x12, 4x9, 6x6) e al massimo 144 (12x12).
+La quantità dei tranelli è calcolata secondo la grandezza della griglia.
+nr.tranelli mortali = celle / 7, arrotondato per diffetto.
+nr.tranelli indovinelli = celle / 25, arrotondato per eccesso.
+Il numero dei forzieri rimane sempre uno (1).
+Il gioco termina quando il giocatore trova il forziere, trova un tranello mortale o risponde
+scorrettamente a un indovinello.
+Se il giocatore trova un indovinello e risponde correttamente, vengono rivelate le posizioni di
+al massimo 2 tranelli mortali non ancora trovati.
+Durante la fase di gioco, dopo aver cliccato una cella, quelle vuote sono marcate da una 'X', le trappole
+mortali da una bomba, gli indovinelli da un foglio arrotolato e il tesoro da un baule contenente dell'oro.
+Il giocatore può decidere di tornare alla schermata principale o ricominciare la partita in un momento
+qualsiasi durante la fase di gioco.
